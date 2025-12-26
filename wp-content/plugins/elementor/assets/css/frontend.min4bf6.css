@@ -2271,6 +2271,7 @@ body.rtl .e-con {
 }
 .col-3{
     width: 25% !important;
+    margin-bottom: 20px;
     padding: 0 10px;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2313,4 +2314,14 @@ body.rtl .e-con {
   .elementor .elementor-hidden-widescreen {
     display: none;
   }
+}
+
+
+@media screen and (max-width: 576px) {
+.col-3 {
+    width: 100% !important;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
 }
