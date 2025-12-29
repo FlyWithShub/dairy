@@ -2793,16 +2793,20 @@ body.rtl
 }
 
 .titleHeading .headingPath span {
+  color: #fff;
 }
 .titleHeading .headingPath img {
   width: 7px;
   height: auto;
   object-fit: contain;
+      filter: invert(1);
+    mix-blend-mode: color-dodge;
 }
 .titleHeading .headingPath a {
   font-size: 16px;
   font-weight: 500;
-  color: #0d6efd;
+  color: #fff;
+
 }
 .titleHeading .headingPath {
   display: flex;
@@ -2811,12 +2815,15 @@ body.rtl
 }
 .titleHeading h2 {
   margin-bottom: 0;
+  color: #fff;
 }
 .titleHeading {
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(https://dairydimension.com/wp-content/uploads/2025/05/Onkar-1024x576.jpg);
+  background-image: url('../../../../../custom/headingBg.jpg');
   padding: 50px 0;
   background-position: center;
 }
